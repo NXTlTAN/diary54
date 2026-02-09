@@ -1,5 +1,5 @@
 async function loadXML() {
-  const response = await fetch('https://raw.githubusercontent.com/zzzzzzzzzzzz-del/redak54/refs/heads/main/schedule.xml');
+  const response = await fetch("https://raw.githubusercontent.com/zzzzzzzzzzzz-del/schedule.xml/refs/heads/main/schedule.xml");
   const xmlText = await response.text();
 
   const parser = new DOMParser();
@@ -18,3 +18,4 @@ async function loadXML() {
 }
 
 loadXML();
+
