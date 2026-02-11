@@ -16,21 +16,21 @@
     }
 
     .light_ad {
-        display: none;
+        opacity: 0;
     }
 
     .dark_ad {
-        display: inline;
+        opacity: 1;
     }
 }
 
 @media (prefers-color-scheme: light) {
     .light_ad {
-        display: inline;
+        opacity: 1;
     }
 
     .dark_ad {
-        display: none;
+        opacity: 0;
     }
 }
 
