@@ -136,3 +136,9 @@ main {
 .card h2 {
     text-wrap: auto;
 }
+
+/* ADs */
+
+.DivAd {
+    height: 50vh;
+}
