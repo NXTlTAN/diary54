@@ -14,6 +14,14 @@
         --card-level1: #1f1f1f;
         --card-level2: #2f2f2f;
     }
+
+    .light_ad {
+        display: none;
+    }
+
+    .dark_ad {
+        display: auto;
+    }
 }
 
 
@@ -63,6 +71,14 @@ h2 {
     text-align: start;
     font-size: 1.25rem;
     font-weight: 400;
+}
+
+.light_ad {
+    display: auto;
+}
+
+.dark_ad {
+    display: none;
 }
 
 /* header */
