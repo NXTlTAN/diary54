@@ -24,6 +24,15 @@
     }
 }
 
+@media (prefers-color-scheme: light) {
+    .light_ad {
+        display: inline;
+    }
+
+    .dark_ad {
+        display: none;
+    }
+}
 
 html {
     box-sizing: border-box;
@@ -71,14 +80,6 @@ h2 {
     text-align: start;
     font-size: 1.25rem;
     font-weight: 400;
-}
-
-.light_ad {
-    display: inline;
-}
-
-.dark_ad {
-    display: none;
 }
 
 /* header */
